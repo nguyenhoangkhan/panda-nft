@@ -9,8 +9,12 @@ html {
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
   color: $white-color;
+  line-height: 32px;
 }
 .App {
   background-color: $black-color;
   height: 100vh;
+}
+p {
+  font-size: 1.6rem;
 }

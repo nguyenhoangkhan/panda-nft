@@ -1,0 +1,15 @@
+.hero-wrapper {
+  display: flex;
+  .hero-discover {
+    h1 {
+      font-weight: 700;
+      font-size: 6.4rem;
+      line-height: 80px;
+      margin-bottom: 24px;
+    }
+    p {
+      color: $secondary-color;
+      margin-bottom: 40px;
+    }
+  }
+}
