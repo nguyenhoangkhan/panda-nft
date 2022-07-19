@@ -1,15 +1,28 @@
 .hero-wrapper {
-  display: flex;
+  position: relative;
   .hero-discover {
-    h1 {
-      font-weight: 700;
-      font-size: 6.4rem;
-      line-height: 80px;
-      margin-bottom: 24px;
-    }
     p {
       color: $secondary-color;
       margin-bottom: 40px;
+    }
+  }
+  .hero-cards {
+    margin-left: 42px;
+  }
+  .card-hero {
+    position: absolute;
+    left: 1226px;
+    top: 0;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .hero-wrapper {
+    padding: 0 20px;
+    .hero-cards {
+      margin: 46px 0 0 0;
+      display: flex;
+      justify-content: center;
+      padding: 0 20px;
     }
   }
 }

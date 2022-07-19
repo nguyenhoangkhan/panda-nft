@@ -1,0 +1,26 @@
+.own-wrapper {
+  position: relative;
+  margin-top: 168px;
+  background: radial-gradient(
+    151.95% 463.58% at -44.29% -62.34%,
+    rgba(255, 255, 255, 0.3) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  border-radius: 16px;
+  backdrop-filter: blur(74px);
+  padding: 48px 205px;
+  border: 1px solid $blue-color;
+  text-align: center;
+
+  p {
+    margin-bottom: 40px;
+    color: $secondary-color;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .own-wrapper {
+    padding: 50px 40px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}

@@ -8,8 +8,8 @@ function App() {
       <div className="grid wide">
         <Header />
         <Content />
-        <Footer />
       </div>
+      <Footer />
     </div>
   );
 }

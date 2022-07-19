@@ -1,0 +1,33 @@
+.live-wrapper {
+  margin-top: 150px;
+  .live-title {
+    display: flex;
+    margin-bottom: 0;
+  }
+  .live-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .live-cards {
+    margin-top: 56px;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .live-wrapper {
+    padding: 0 10px;
+    .live-title {
+      margin-bottom: 20px;
+    }
+    .live-cards {
+      margin-top: 30px;
+      .col {
+        display: flex;
+        justify-content: center;
+      }
+    }
+    .live-card {
+      margin: 0 0 14px 0;
+    }
+  }
+}

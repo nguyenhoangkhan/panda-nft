@@ -1,40 +1,47 @@
-import React, { useEffect } from "react";
 import images from "../../assets/images";
-import Grid from "../Grid";
-const Header = (props) => {
-  useEffect(() => {
-    const liList = document.querySelectorAll(".header-nav ul li");
-    liList.forEach((li) => {
-      li.onclick = (e) => {
-        const liActive = document.querySelector(".header-nav ul li.active");
-        liActive.classList.remove("active");
-        e.target.classList.add("active");
-      };
-    });
-  }, []);
+import { Col, Row } from "../Layout";
+import Ornament from "../Ornament";
+import { NavLink } from "react-router-dom";
+const Header = () => {
   return (
-    <div className="row">
-      <Grid col={12} mdCol={12} smCol={12}>
-        <div className="header-wrapper">
+    <div className="header-wrapper">
+      <Row>
+        <Col col={3} mdCol={4} smCol={12}>
           <div className="header-logo">
             <img src={images.logo} alt="TikTok" />
             <p>Panda NFT</p>
           </div>
-          <div className="header-nav">
-            <ul>
-              <li className="active">Home</li>
-              <li>Discover</li>
-              <li>Docs</li>
-              <li>Blog</li>
-              <li>About Us</li>
-              <li>Contact Us</li>
-            </ul>
-          </div>
+        </Col>
+        <Col col={6} mdCol={4} smCol="0">
+          <ul className="header-nav">
+            <li className="active">
+              <NavLink to="home">Home</NavLink>
+            </li>
+            <li>
+              <NavLink to="discover">Discover</NavLink>
+            </li>
+            <li>
+              <NavLink to="docs">Docs</NavLink>
+            </li>
+            <li>
+              <NavLink to="blog">Blog</NavLink>
+            </li>
+            <li>
+              <NavLink to="about">About Us</NavLink>
+            </li>
+            <li>
+              <NavLink to="contact">Contact Us</NavLink>
+            </li>
+          </ul>
+        </Col>
+        <Col col={3} mdCol={4} smCol="0">
           <div className="header-connect">
             <a href="a">Connect Wallet</a>
           </div>
-        </div>
-      </Grid>
+        </Col>
+      </Row>
+      <Ornament className="header-ornament" />
+      <Ornament className="wallets-ornament" />
     </div>
   );
 };

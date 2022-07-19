@@ -1,0 +1,43 @@
+.hot-wrapper {
+  margin-top: 150px;
+  .hot-title {
+    line-height: 100%;
+  }
+  a {
+    display: inline-block;
+    min-width: 100%;
+    transition: 0.3s;
+    text-align: center;
+  }
+  a:hover {
+    background-color: $blue-color;
+  }
+  a.active {
+    background-color: $blue-color;
+  }
+  .hot-wrapper-cards {
+    margin-top: 56px;
+    & .col {
+      margin-bottom: 20px;
+    }
+  }
+
+  .hot-wrapper-more {
+    text-align: center;
+    margin-top: 36px;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .hot-wrapper {
+    padding: 0 10px;
+    .hot-btn {
+      margin: 6px 0;
+    }
+    .hot-wrapper-cards {
+      margin-top: 30px;
+      .row {
+        justify-content: center;
+      }
+    }
+  }
+}

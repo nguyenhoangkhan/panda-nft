@@ -1,0 +1,20 @@
+.wallets-wrapper {
+  margin-top: 100px;
+  position: relative;
+}
+.wallet-item {
+  height: 40px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  img {
+    height: calc(100% - 10px);
+    width: calc(100% - 50px);
+    object-fit: contain;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .wallet-item {
+    margin: 8px 0;
+  }
+}

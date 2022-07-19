@@ -1,0 +1,27 @@
+.ornament {
+  background: rgba(30, 80, 255, 0.5);
+  filter: blur(700px);
+  width: 638px;
+  height: 587.33px;
+  position: absolute;
+  &.header-ornament {
+    left: -400px;
+    top: -302px;
+  }
+  &.wallets-ornament {
+    left: 1100px;
+    top: 534px;
+  }
+  &.feature-ornament {
+    top: -200px;
+    left: -500px;
+  }
+  &.own-ornament {
+    top: -400px;
+    left: 686px;
+  }
+  &.footer-ornament {
+    left: -415px;
+    top: 5040.18px;
+  }
+}
