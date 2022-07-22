@@ -24,9 +24,10 @@ const Live = () => {
             <Col key={item.id} col={4} mdCol={4} smCol={12}>
               <Card
                 className="live-card"
+                id={item.id}
                 name={item.name}
                 banner={item.banner}
-                avatar={item.avatar}
+                avatar={item.avatarCreator}
                 price={item.price}
                 title={item.title}
                 content

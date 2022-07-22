@@ -1,0 +1,48 @@
+.detail-page__wrapper {
+  .detail-item-text {
+    color: $secondary-color;
+  }
+  .detail-item-bid {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    p {
+      color: $secondary-color;
+    }
+    h3 {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 32px;
+    }
+  }
+  .detail-item-creator_owner {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 16px;
+    background-color: $gray-bold-color;
+    padding: 16px 24px;
+    .detail-item {
+      display: flex;
+      column-gap: 16px;
+      .detail-avatar {
+        display: flex;
+        align-items: center;
+      }
+      img {
+        width: 64px;
+        height: 64px;
+      }
+    }
+    .detail-item-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }
+  .detail-buy-btns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 56px;
+  }
+}

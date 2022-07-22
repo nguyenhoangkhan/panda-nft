@@ -1,27 +1,42 @@
 export const LiveAuctionsData = [
   {
     id: 1,
-    banner: "IMG (5).png",
+    banner:
+      "https://firebasestorage.googleapis.com/v0/b/panda-nft-1b3a8.appspot.com/o/IMG%20(1).png?alt=media&token=281c1387-971f-4b73-8f71-b67064b1d177",
     title: `"Hamlet Contemplates"`,
-    avatar: "Background.png",
-    name: "SalvadorDali",
+    avatarCreator:
+      "https://firebasestorage.googleapis.com/v0/b/panda-nft-1b3a8.appspot.com/o/Background%20(1).png?alt=media&token=45d12d6a-3f93-48b3-93c7-c7efba7aaeac",
+    avatarOwner:
+      "https://firebasestorage.googleapis.com/v0/b/panda-nft-1b3a8.appspot.com/o/Background%20(5).png?alt=media&token=b71b5ed1-8376-4cc3-957f-eec1825ccf24",
+    name: "KhanHazard",
     price: "4.89 eTH",
+    lastPrice: "4.89 eTH",
   },
   {
     id: 2,
-    banner: "IMG.png",
+    banner:
+      "https://firebasestorage.googleapis.com/v0/b/panda-nft-1b3a8.appspot.com/o/IMG%20(2).png?alt=media&token=d9ecaaa4-757c-41c9-a5d7-9c2fbaa24601",
     title: `"Hamlet Contemplates"`,
-    avatar: "Background (1).png",
-    name: "SalvadorDali",
+    avatarCreator:
+      "https://firebasestorage.googleapis.com/v0/b/panda-nft-1b3a8.appspot.com/o/Background%20(2).png?alt=media&token=1e2eb788-8e8a-44c9-b01d-373b5d0c9b19",
+    avatarOwner:
+      "https://console.firebase.google.com/u/0/project/panda-nft-1b3a8/storage/panda-nft-1b3a8.appspot.com/files",
+    name: "MohamedAli",
     price: "4.89 eTH",
+    lastPrice: "4.89 eTH",
   },
   {
     id: 3,
-    banner: "IMG (3).png",
+    banner:
+      "https://firebasestorage.googleapis.com/v0/b/panda-nft-1b3a8.appspot.com/o/IMG%20(3).png?alt=media&token=a3862353-972a-48ae-b975-bf32bf6f55e1",
     title: `"Hamlet Contemplates"`,
-    avatar: "Background (2).png",
-    name: "SalvadorDali",
+    avatarCreator:
+      "https://firebasestorage.googleapis.com/v0/b/panda-nft-1b3a8.appspot.com/o/Background%20(3).png?alt=media&token=abee18d8-1b5c-4ac4-b30f-9e7f0e792600",
+    avatarOwner:
+      "https://firebasestorage.googleapis.com/v0/b/panda-nft-1b3a8.appspot.com/o/Background%20(3).png?alt=media&token=abee18d8-1b5c-4ac4-b30f-9e7f0e792600",
+    name: "Baroibeo",
     price: "4.89 eTH",
+    lastPrice: "4.89 eTH",
   },
 ];
 export const FeaturedArtistData = [
@@ -60,7 +75,7 @@ export const hotNftsData = [
     banner: "Image.png",
     title: `"Hamlet Contemplates"`,
     avatar: "Background (3).png",
-    name: "SalvadorDali",
+    name: "Omagaye",
     price: "4.89 eTH",
   },
   {
@@ -68,7 +83,7 @@ export const hotNftsData = [
     banner: "Image (3).png",
     title: `"Hamlet Contemplates"`,
     avatar: "Background (4).png",
-    name: "SalvadorDali",
+    name: "Niggeza",
     price: "4.89 eTH",
   },
   {
@@ -76,7 +91,7 @@ export const hotNftsData = [
     banner: "Image (1).png",
     title: "Hamlet Contemplates",
     avatar: "Background (5).png",
-    name: "SalvadorDali",
+    name: "SevenBoy",
     price: "4.89 eTH",
   },
   {
@@ -84,7 +99,7 @@ export const hotNftsData = [
     banner: "Image (2).png",
     title: "Hamlet Contemplates",
     avatar: "Background (6).png",
-    name: "SalvadorDali",
+    name: "Smoker",
     price: "4.89 eTH",
   },
   {
@@ -92,7 +107,7 @@ export const hotNftsData = [
     banner: "IMG (2).png",
     title: "Hamlet Contemplates",
     avatar: "Background (7).png",
-    name: "SalvadorDali",
+    name: "Luffy",
     price: "4.89 eTH",
   },
   {
@@ -100,7 +115,7 @@ export const hotNftsData = [
     banner: "IMG (4).png",
     title: "Hamlet Contemplates",
     avatar: "Background (8).png",
-    name: "SalvadorDali",
+    name: "Doflamingo",
     price: "4.89 eTH",
   },
 ];

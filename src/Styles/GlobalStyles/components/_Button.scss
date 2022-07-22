@@ -28,6 +28,10 @@ a.button {
   }
   &.transparent {
     background-color: unset;
+    transition: 0.3s ease;
+  }
+  &.transparent:hover {
+    background-color: $blue-color;
   }
   &.content {
     font-size: 4.8rem;

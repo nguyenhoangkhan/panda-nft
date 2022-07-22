@@ -18,7 +18,9 @@ const Own = () => {
           </p>
         </Col>
         <Col col={12} mdCol={12} smCol={12}>
-          <Button primary>Join Community Now</Button>
+          <Button className="own-btn" primary>
+            Join Community Now
+          </Button>
         </Col>
       </Row>
       <Ornament className="own-ornament" />

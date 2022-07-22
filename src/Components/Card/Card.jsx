@@ -11,17 +11,18 @@ const Card = ({
   cardHalf,
   content,
   className,
+  noPadding,
 }) => {
   const classes = classNames("card-wrapper", {
-    cardHalf,
     content,
+    noPadding,
     [className]: className,
   });
   return cardHalf ? (
     <div className={classes}>
       <div className="card-spotlight">
         <div className="card-spotlight__image half">
-          <img src="IMG.png" alt="" />
+          <img src={banner} alt="banner" />
           <div className="card-spotlight__countdown">
             <img src={Images.flameLogo} alt="" />
             <span>05 : 12 : 07 : 45</span>
@@ -40,7 +41,11 @@ const Card = ({
           </div>
           <div className="card-over-lay">
             <div className="card-over-lay__button">
-              <Button className="card-over-lay__btn" primary to="">
+              <Button
+                className="card-over-lay__btn"
+                primary
+                to={`/detailpage/${name}`}
+              >
                 Place A Bid
               </Button>
             </div>

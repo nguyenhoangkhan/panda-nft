@@ -5,6 +5,18 @@
   justify-content: center;
   width: 400px;
   padding: 24px;
+  &.noPadding {
+    padding: unset;
+    width: fit-content;
+    background-color: transparent;
+  }
+  &.noPadding .card-spotlight__image {
+    height: 508px;
+    width: fit-content;
+  }
+  &.noPadding .card-spotlight__image img {
+    object-fit: contain;
+  }
   .card-spotlight__image {
     position: relative;
     width: 352px;
@@ -22,6 +34,7 @@
     &.half {
       margin-bottom: 0;
     }
+
     .card-spotlight__countdown {
       position: absolute;
       left: 50%;
