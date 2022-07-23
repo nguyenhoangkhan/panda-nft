@@ -10,19 +10,22 @@ const Button = ({
   className,
   children,
   onClick,
+  noBorder,
   ...passProps
 }) => {
   let Comp;
   const propsButton = {
     onClick,
+    href,
     ...passProps,
   };
   const classes = classNames("button", {
     primary,
     transparent,
+    noBorder,
     [className]: className,
   });
-  if (href) {
+  if (propsButton.href) {
     Comp = "a";
   } else if ((propsButton.to = to)) {
     Comp = NavLink;
@@ -44,4 +47,4 @@ Button.propTypes = {
   href: PropTypes.string,
 };
 
-export default Button;
+export default React.memo(Button);

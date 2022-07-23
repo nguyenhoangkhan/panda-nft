@@ -23,7 +23,6 @@
         opacity: 1;
       }
     }
-
     span {
       position: absolute;
       top: 50%;
@@ -85,9 +84,40 @@
   justify-content: center;
 }
 @media only screen and(max-width: 720px) {
-  .discover-cards-wrapper {
-    .discover-btn {
-      margin: 10px 0;
+  .discover-wrapper {
+    padding: 0 10px;
+    .discover-search-wrapper {
+      margin-top: 86px;
+      max-width: fit-content;
+      .discover-search {
+        width: 100%;
+        margin: 30px auto 0 auto;
+        input {
+          width: 350px;
+        }
+        span {
+          left: 308px;
+        }
+      }
+      .discover-btn {
+        margin: 10px 0;
+      }
+    }
+    .discover-cards-wrapper {
+      select {
+        margin-bottom: 10px;
+      }
+    }
+    .discover-cards-btns {
+      padding-top: 10px;
+      a {
+        margin-bottom: 10px;
+      }
+    }
+    .discover-wrapper-cards {
+      .discover-card {
+        width: 100%;
+      }
     }
   }
 }

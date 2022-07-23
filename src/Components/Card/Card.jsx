@@ -1,3 +1,4 @@
+import { memo } from "react";
 import PropTypes from "prop-types";
 import classNames from "classnames";
 import Button from "../Button";
@@ -85,4 +86,4 @@ Card.propTypes = {
   cardHalf: PropTypes.bool,
 };
 
-export default Card;
+export default memo(Card);

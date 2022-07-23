@@ -1,26 +1,28 @@
+import { memo } from "react";
 import images from "../../assets/images";
 import { Col, Row } from "../Layout";
 import Ornament from "../Ornament";
 import { NavLink } from "react-router-dom";
+import Button from "../Button";
 const Header = () => {
   return (
     <div className="header-wrapper">
       <Row>
         <Col col={3} mdCol={4} smCol={12}>
-          <div className="header-logo">
+          <Button noBorder href="/" className="header-logo">
             <img src={images.logo} alt="TikTok" />
             <p>Panda NFT</p>
-          </div>
+          </Button>
         </Col>
         <Col col={6} mdCol={4} smCol="0">
           <ul className="header-nav">
-            <li className="active">
+            <li>
               <NavLink to="home">Home</NavLink>
             </li>
             <li>
               <NavLink to="discover">Discover</NavLink>
             </li>
-            <li>
+            {/* <li>
               <NavLink to="docs">Docs</NavLink>
             </li>
             <li>
@@ -31,7 +33,7 @@ const Header = () => {
             </li>
             <li>
               <NavLink to="contact">Contact Us</NavLink>
-            </li>
+            </li> */}
           </ul>
         </Col>
         <Col col={3} mdCol={4} smCol="0">
@@ -46,4 +48,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default memo(Header);

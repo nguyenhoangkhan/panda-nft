@@ -51,15 +51,16 @@ const Hot = () => {
             </Col>
           </Row>
         </Col>
-        <Col col={12}>
+        <Col col={12} md={12} smCol={12}>
           <div className="hot-wrapper-cards">
             <Row>
               {hotNftsData.map((item) => (
                 <Col key={item.id} col={4} mdCol={4} smCol={12}>
                   <Card
+                    className="hot-card"
                     name={item.name}
                     banner={item.banner}
-                    avatar={item.avatar}
+                    avatar={item.avatarCreator}
                     price={item.price}
                     title={item.title}
                   />

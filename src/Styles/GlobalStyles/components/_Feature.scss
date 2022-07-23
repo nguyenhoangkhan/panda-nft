@@ -24,6 +24,7 @@
         height: 104px;
         border-radius: 50%;
         object-fit: contain;
+        overflow: hidden;
         position: absolute;
         left: 50%;
         bottom: -23%;
@@ -66,7 +67,12 @@
         margin: 0 0 20px 0;
       }
       .feature-profile {
-        padding: 20px;
+        padding: 20px 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
       }
     }
   }

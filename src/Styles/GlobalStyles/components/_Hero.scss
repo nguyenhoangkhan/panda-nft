@@ -17,12 +17,14 @@
 }
 @media only screen and (max-width: 720px) {
   .hero-wrapper {
-    padding: 0 20px;
+    padding: 0 10px;
     .hero-cards {
       margin: 46px 0 0 0;
       display: flex;
       justify-content: center;
-      padding: 0 20px;
+      .hero-card {
+        width: 100%;
+      }
     }
   }
 }

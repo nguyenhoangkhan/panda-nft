@@ -3,6 +3,9 @@ a.button {
   text-align: center;
   display: flex;
   align-items: center;
+  &.noBorder {
+    border: none;
+  }
 }
 .button {
   color: $white-color;
@@ -29,6 +32,9 @@ a.button {
   &.transparent {
     background-color: unset;
     transition: 0.3s ease;
+    &.noBorder {
+      border: none;
+    }
   }
   &.transparent:hover {
     background-color: $blue-color;

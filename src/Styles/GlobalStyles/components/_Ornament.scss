@@ -4,13 +4,16 @@
   width: 638px;
   height: 587.33px;
   position: absolute;
+
   &.header-ornament {
     left: -400px;
     top: -302px;
+    z-index: -1;
   }
   &.wallets-ornament {
     left: 1100px;
     top: 534px;
+    z-index: -1;
   }
   &.feature-ornament {
     top: -200px;

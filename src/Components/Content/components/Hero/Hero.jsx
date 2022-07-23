@@ -22,13 +22,18 @@ const Hero = () => {
         <Col col={6} mdCol={12} smCol={12}>
           <div className="hero-cards">
             <Card
-              banner="IMG (3).png"
+              className="hero-card"
+              banner="https://firebasestorage.googleapis.com/v0/b/panda-nft-1b3a8.appspot.com/o/IMG%20(3).png?alt=media&token=a3862353-972a-48ae-b975-bf32bf6f55e1"
               price="4.89 eTH"
               title="Hamlet Contemplates"
               name="SalvadorDali"
-              avatar="Background (2).png"
+              avatar="https://firebasestorage.googleapis.com/v0/b/panda-nft-1b3a8.appspot.com/o/Background%20(2).png?alt=media&token=1e2eb788-8e8a-44c9-b01d-373b5d0c9b19"
             />
-            <Card cardHalf className="card-hero" />
+            <Card
+              banner="https://firebasestorage.googleapis.com/v0/b/panda-nft-1b3a8.appspot.com/o/Image%20(2).png?alt=media&token=b2e8a94a-5178-4a9b-a6f5-de6ead87e665"
+              cardHalf
+              className="card-hero"
+            />
           </div>
         </Col>
       </Row>
