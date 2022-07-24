@@ -15,34 +15,34 @@ const Hot = () => {
                 HOT NFTs
               </TitleContent>
             </Col>
-            <Col col={9}>
+            <Col col={9} mdCol={9} smCol={9}>
               <Row>
-                <Col col={2}>
+                <Col col={2} mdCol={2} smCol={6}>
                   <Button className="hot-btn" to="music" transparent>
                     Music
                   </Button>
                 </Col>
-                <Col col={2}>
+                <Col col={2} mdCol={2} smCol={6}>
                   <Button className="hot-btn" to="art" transparent>
                     Art
                   </Button>
                 </Col>
-                <Col col={2}>
+                <Col col={2} mdCol={2} smCol={6}>
                   <Button className="hot-btn" to="sports" transparent>
                     Sports
                   </Button>
                 </Col>
-                <Col col={2}>
+                <Col col={2} mdCol={2} smCol={6}>
                   <Button className="hot-btn" to="virtual" transparent>
                     Virtual
                   </Button>
                 </Col>
-                <Col col={2}>
+                <Col col={2} mdCol={2} smCol={6}>
                   <Button className="hot-btn" to="videos" transparent>
                     Videos
                   </Button>
                 </Col>
-                <Col col={2}>
+                <Col col={2} mdCol={2} smCol={6}>
                   <Button className="hot-btn" to="more" transparent>
                     More
                   </Button>
@@ -69,7 +69,7 @@ const Hot = () => {
             </Row>
           </div>
         </Col>
-        <Col col={12}>
+        <Col col={12} mdCol={12} smCol={12}>
           <div className="hot-wrapper-more">
             <Button transparent>View More</Button>
           </div>
