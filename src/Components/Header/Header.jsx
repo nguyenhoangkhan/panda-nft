@@ -14,7 +14,7 @@ const Header = () => {
             <p>Panda NFT</p>
           </Button>
         </Col>
-        <Col col={6} mdCol={4} smCol="0">
+        <Col col={6} mdCol={4} smCol="12">
           <ul className="header-nav">
             <li>
               <NavLink to="home">Home</NavLink>

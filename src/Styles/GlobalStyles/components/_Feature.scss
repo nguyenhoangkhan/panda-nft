@@ -67,12 +67,22 @@
         margin: 0 0 20px 0;
       }
       .feature-profile {
-        padding: 20px 0;
+        padding: 20px;
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        .feature-profile__cover-image {
+          width: 100%;
+          height: 100%;
+        }
+        .feature-profile__avatar-image {
+          bottom: -14%;
+          img {
+            object-fit: cover;
+          }
+        }
       }
     }
   }

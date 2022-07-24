@@ -45,6 +45,11 @@
       }
     }
   }
+  .footer-contact {
+    p {
+      color: $secondary-color;
+    }
+  }
 }
 @media only screen and (max-width: 720px) {
   .footer {

@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="footer">
       <div className="grid wide">
         <Row>
-          <Col col="4" smCol={12}>
+          <Col col="4" mdCol={12} smCol={12}>
             {" "}
             <div className="footer-panda">
               <div className="footer-panda__content">
@@ -51,7 +51,7 @@ const Footer = () => {
               </ul>
             </div>{" "}
           </Col>
-          <Col col="2-5">
+          <Col col="2-5" mdCol={12} smCol={12}>
             {" "}
             <div className="footer-company">
               <h1 className="footer-title">Company</h1>
@@ -71,7 +71,7 @@ const Footer = () => {
               </ul>
             </div>{" "}
           </Col>
-          <Col col="2-5">
+          <Col col="2-5" mdCol={12} smCol={12}>
             {" "}
             <div className="footer-contact">
               <h1 className="footer-title">Contact</h1>
