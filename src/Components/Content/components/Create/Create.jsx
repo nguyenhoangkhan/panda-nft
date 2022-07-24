@@ -7,14 +7,14 @@ const Create = () => {
   return (
     <div className="create-wrapper">
       <Row>
-        <Col col={12} mdCol={4} smCol={12}>
+        <Col col={12} mdCol={12} smCol={12}>
           <TitleContent className="create-title content">
             Create and sell your NFTs
           </TitleContent>
         </Col>
       </Row>
       <Row>
-        <Col col={4} mdCol={4} smCol={12}>
+        <Col col={4} mdCol={12} smCol={12}>
           <div className="create-card">
             <div className="create-card__icon">
               <img src={Images.createIcon} alt="" />
@@ -26,7 +26,7 @@ const Create = () => {
             </p>
           </div>
         </Col>
-        <Col col={4} mdCol={4} smCol={12}>
+        <Col col={4} mdCol={12} smCol={12}>
           <div className="create-card">
             <div className="create-card__icon">
               <img src={Images.createIcon} alt="" />
@@ -38,7 +38,7 @@ const Create = () => {
             </p>
           </div>
         </Col>
-        <Col col={4} mdCol={4} smCol={12}>
+        <Col col={4} mdCol={12} smCol={12}>
           <div className="create-card">
             <div className="create-card__icon">
               <img src={Images.createIcon} alt="" />

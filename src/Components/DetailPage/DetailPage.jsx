@@ -38,10 +38,10 @@ const DetailPage = () => {
           .filter((data) => data.name === name)
           .map((data) => (
             <React.Fragment key={data.id}>
-              <Col col={6} md={6} smCol={12}>
+              <Col col={6} mdCol={12} smCol={12}>
                 <Card banner={data.banner} noPadding cardHalf />
               </Col>
-              <Col col={6} md={6} smCol={12}>
+              <Col col={6} mdCol={12} smCol={12}>
                 <Row>
                   <Col col={12} mdCol={12} smCol={12}>
                     <TitleContent className="detail-page__title">

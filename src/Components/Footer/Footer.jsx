@@ -28,7 +28,7 @@ const Footer = () => {
               </div>
             </div>{" "}
           </Col>
-          <Col col="2-5" mdCol={12} smCol={12}>
+          <Col col="2-5" mdCol={6} smCol={12}>
             {" "}
             <div className="footer-resource">
               <h1 className="footer-title">Resources</h1>
@@ -51,7 +51,7 @@ const Footer = () => {
               </ul>
             </div>{" "}
           </Col>
-          <Col col="2-5" mdCol={12} smCol={12}>
+          <Col col="2-5" mdCol={6} smCol={12}>
             {" "}
             <div className="footer-company">
               <h1 className="footer-title">Company</h1>
@@ -71,7 +71,7 @@ const Footer = () => {
               </ul>
             </div>{" "}
           </Col>
-          <Col col="2-5" mdCol={12} smCol={12}>
+          <Col col="2-5" mdCol={6} smCol={12}>
             {" "}
             <div className="footer-contact">
               <h1 className="footer-title">Contact</h1>

@@ -27,7 +27,7 @@
     margin-top: 36px;
   }
 }
-@media only screen and (max-width: 720px) {
+@media only screen and (min-width: 320px) {
   .hot-wrapper {
     padding: 0 10px;
     .hot-btn {
@@ -42,6 +42,23 @@
     .hot-wrapper-more {
       display: flex;
       justify-content: center;
+    }
+  }
+}
+@media only screen and (min-width: 768px) {
+  .hot-card {
+    .card-spotlight {
+      width: 100%;
+      .card-spotlight__image {
+        width: 100%;
+      }
+
+      h4 {
+        width: 80px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
     }
   }
 }

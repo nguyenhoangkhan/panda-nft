@@ -6,22 +6,30 @@ import { LiveAuctionsData } from "../../../../assets/fake-data/fake-data";
 const Live = () => {
   return (
     <div className="live-wrapper">
-      <Row>
-        <Col col={10} mdCol={4} smCol={12}>
-          <TitleContent className="live-title content">
-            Live Auctions
-          </TitleContent>
-        </Col>
-        <Col col={2} mdCol={4} smCol={6}>
-          <Button className="live-btn" to="view-more-live-auctions" transparent>
-            View More
-          </Button>
-        </Col>
-      </Row>
+      <div className="live-title-wrapper">
+        <Row>
+          <Col col={10} mdCol={8} smCol={12}>
+            <TitleContent className="live-title content">
+              Live Auctions
+            </TitleContent>
+          </Col>
+          <Col col={2} mdCol={4} smCol={6}>
+            <div classsName="live-btn-wrapper">
+              <Button
+                className="live-btn"
+                to="view-more-live-auctions"
+                transparent
+              >
+                View More
+              </Button>
+            </div>
+          </Col>
+        </Row>
+      </div>
       <div className="live-cards">
         <Row>
           {LiveAuctionsData.map((item) => (
-            <Col key={item.id} col={4} mdCol={4} smCol={12}>
+            <Col key={item.id} col={4} mdCol={6} smCol={12}>
               <Card
                 className="live-card"
                 id={item.id}

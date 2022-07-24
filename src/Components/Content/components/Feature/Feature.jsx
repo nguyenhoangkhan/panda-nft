@@ -10,29 +10,31 @@ const Feature = () => {
     <div className="feature-wrapper">
       <Row>
         <Col col={12} mdCol={12} smCol={12}>
-          <Row>
-            <Col col={10} mdCol={12} smCol={12}>
-              <div className="feature-title__wrapper">
-                <TitleContent className="feature-title content">
-                  Featured Artist
-                </TitleContent>
-              </div>
-            </Col>
-            <Col col={2} mdCol={12} smCol={6}>
-              <Button
-                className="feature-btn"
-                to="view-more-featured-artist"
-                transparent
-              >
-                View More
-              </Button>
-            </Col>
-          </Row>
+          <div className="feature-title-container">
+            <Row>
+              <Col col={10} mdCol={8} smCol={12}>
+                <div className="feature-title__wrapper">
+                  <TitleContent className="feature-title content">
+                    Featured Artist
+                  </TitleContent>
+                </div>
+              </Col>
+              <Col col={2} mdCol={4} smCol={6}>
+                <Button
+                  className="feature-btn"
+                  to="view-more-featured-artist"
+                  transparent
+                >
+                  View More
+                </Button>
+              </Col>
+            </Row>
+          </div>
         </Col>
         <Col col={12} mdCol={12} smCol={12}>
           <div className="feature-profile__wrapper">
             <Row>
-              <Col col={3} mdCol={3} smCol={12}>
+              <Col col={3} mdCol={6} smCol={12}>
                 <div className="feature-profile">
                   <div className="feature-profile__cover-image">
                     <img src="cryptopunks.png" alt="profile" />
@@ -47,7 +49,7 @@ const Feature = () => {
                   </p>
                 </div>
               </Col>
-              <Col col={3} mdCol={3} smCol={12}>
+              <Col col={3} mdCol={6} smCol={12}>
                 <div className="feature-profile">
                   <div className="feature-profile__cover-image">
                     <img src="Image Placeholder (1).png" alt="profile" />
@@ -62,7 +64,7 @@ const Feature = () => {
                   </p>
                 </div>
               </Col>
-              <Col col={3} mdCol={3} smCol={12}>
+              <Col col={3} mdCol={6} smCol={12}>
                 <div className="feature-profile">
                   <div className="feature-profile__cover-image">
                     <img src="Image Placeholder (2).png" alt="profile" />
@@ -77,7 +79,7 @@ const Feature = () => {
                   </p>
                 </div>
               </Col>
-              <Col col={3} mdCol={3} smCol={12}>
+              <Col col={3} mdCol={6} smCol={12}>
                 <div className="feature-profile">
                   <div className="feature-profile__cover-image">
                     <img src="Image Placeholder (3).png" alt="profile" />

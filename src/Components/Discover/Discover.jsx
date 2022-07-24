@@ -26,9 +26,9 @@ const Discover = () => {
       </div>
       <div className="discover-cards-wrapper">
         <Row>
-          <Col col={12}>
+          <Col col={12} mdCol={12} smCol={12}>
             <Row>
-              <Col col={3} mdCol={3} smCol={12}>
+              <Col col={3} mdCol={4} smCol={12}>
                 <select>
                   <option>Sort By</option>
                   <option>A - Z</option>
@@ -78,7 +78,7 @@ const Discover = () => {
             <div className="discover-wrapper-cards grid">
               <Row>
                 {hotNftsData.map((item) => (
-                  <Col key={item.id} col={4} mdCol={4} smCol={12}>
+                  <Col key={item.id} col={4} mdCol={6} smCol={12}>
                     <Card
                       className="discover-card"
                       name={item.name}

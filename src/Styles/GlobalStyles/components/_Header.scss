@@ -65,7 +65,7 @@
     }
   }
 }
-@media only screen and (max-width: 720px) {
+@media only screen and (min-width: 320px) {
   .header-wrapper {
     margin: 40px 0 20px 0;
     .header-logo {
@@ -75,6 +75,27 @@
       margin-top: 5px;
       width: 100%;
       padding: 0;
+    }
+  }
+}
+@media only screen and (min-width: 768px) {
+  .header-wrapper {
+    .row {
+      align-items: center;
+    }
+    .header-connect {
+      float: none;
+      display: flex;
+      align-items: center;
+      height: 100%;
+      a {
+        height: 70px;
+      }
+    }
+    .header-logo {
+      padding: 0;
+      display: flex;
+      align-items: flex-end;
     }
   }
 }

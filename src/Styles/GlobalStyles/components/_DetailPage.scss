@@ -179,7 +179,7 @@
     color: red;
   }
 }
-@media only screen and (max-width: 720px) {
+@media only screen and (min-width: 320px) {
   .detail-page__wrapper {
     padding: 0 10px;
     .detail-page__title {
@@ -212,6 +212,15 @@
       .description-info-detail__box {
         max-width: 100%;
       }
+    }
+  }
+}
+@media only screen and (min-width: 768px) {
+  .detail-page__wrapper {
+    margin-top: 86px;
+    .card-wrapper {
+      display: flex;
+      margin: 0 auto;
     }
   }
 }

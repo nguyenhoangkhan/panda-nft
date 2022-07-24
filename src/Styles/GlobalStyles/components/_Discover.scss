@@ -83,7 +83,7 @@
   display: flex;
   justify-content: center;
 }
-@media only screen and(max-width: 720px) {
+@media only screen and(min-width : 320px) {
   .discover-wrapper {
     padding: 0 10px;
     .discover-search-wrapper {
@@ -117,6 +117,37 @@
     .discover-wrapper-cards {
       .discover-card {
         width: 100%;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) {
+  .discover-wrapper {
+    .discover-search-wrapper {
+      .discover-search {
+        input {
+          width: 100%;
+        }
+        span {
+          left: 560px;
+        }
+      }
+    }
+    .discover-card {
+      width: 100%;
+      .card-spotlight {
+        width: 100%;
+        .card-spotlight__image {
+          width: 100%;
+        }
+      }
+      .card-content__creator-name {
+        h4 {
+          width: 80px;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
       }
     }
   }
