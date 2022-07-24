@@ -13,7 +13,7 @@
     margin-top: 56px;
   }
 }
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 320px) and (max-width: 768px) {
   .live-wrapper {
     padding: 0 10px;
     .live-title {

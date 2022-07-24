@@ -2,6 +2,7 @@ import React from "react";
 import { Col, Row } from "../Layout";
 import Images from "../../assets/images";
 import Ornament from "../Ornament";
+import images from "../../assets/images";
 const Footer = () => {
   return (
     <div className="footer">
@@ -78,6 +79,18 @@ const Footer = () => {
               <ul>
                 <li>
                   <p>2715 Ash Dr. San Jose, South Dakota 83475</p>
+                </li>
+                <li className="footer-social-icons">
+                  {" "}
+                  <a href="#">
+                    <img src={images.facebook} alt="" />
+                  </a>
+                  <a href="#">
+                    <img src={images.twitter} alt="" />
+                  </a>
+                  <a href="#">
+                    <img src={images.instagram} alt="" />
+                  </a>
                 </li>
                 <li></li>
               </ul>

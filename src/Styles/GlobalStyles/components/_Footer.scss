@@ -49,9 +49,20 @@
     p {
       color: $secondary-color;
     }
+    .footer-social-icons {
+      display: flex;
+      column-gap: 16px;
+      img {
+        cursor: pointer;
+        transition: ease 0.1s;
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
   }
 }
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 320px) and (max-width: 768px) {
   .footer {
     padding: 40px 10px;
     .footer-panda {

@@ -48,7 +48,7 @@
     }
   }
 }
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 320px) and (max-width: 768px) {
   .feature-wrapper {
     padding: 0 10px;
     .feature-title {
@@ -87,7 +87,7 @@
     }
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   .feature-title-container {
     .row {
       align-items: center;

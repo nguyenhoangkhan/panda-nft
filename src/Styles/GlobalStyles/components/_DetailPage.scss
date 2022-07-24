@@ -179,7 +179,7 @@
     color: red;
   }
 }
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 320px) and (max-width: 768px) {
   .detail-page__wrapper {
     padding: 0 10px;
     .detail-page__title {
@@ -215,7 +215,7 @@
     }
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   .detail-page__wrapper {
     margin-top: 86px;
     .card-wrapper {

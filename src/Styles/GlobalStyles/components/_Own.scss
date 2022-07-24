@@ -20,7 +20,7 @@
     margin: 0 auto;
   }
 }
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 320px) and (max-width: 768px) {
   .own-wrapper {
     padding: 50px 40px;
     margin-right: 10px;
