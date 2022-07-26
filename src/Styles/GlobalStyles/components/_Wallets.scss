@@ -13,8 +13,9 @@
     object-fit: contain;
   }
 }
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 320px) and (max-width: 567px) {
   .wallet-item {
     margin: 8px 0;
+    width: unset;
   }
 }

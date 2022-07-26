@@ -21,7 +21,7 @@ a.button {
   display: flex;
   align-items: center;
   justify-content: center;
-
+  white-space: nowrap;
   &.primary {
     background-color: $blue-color;
     transition: 0.5s ease;
@@ -41,5 +41,10 @@ a.button {
   }
   &.content {
     font-size: 4.8rem;
+  }
+}
+@media only screen and (min-width: 568px) and (max-width: 1024px) {
+  .button {
+    margin-bottom: 6px;
   }
 }

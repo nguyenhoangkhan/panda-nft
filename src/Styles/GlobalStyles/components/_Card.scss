@@ -60,32 +60,34 @@
     .card-over-lay {
       position: absolute;
       background: radial-gradient(
-          151.95% 463.58% at -44.29% -62.34%,
-          rgba(255, 255, 255, 0.3) 0%,
-          rgba(255, 255, 255, 0) 100%
-        )
-        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
-      backdrop-filter: blur(21px);
-      border-radius: 16px;
+        151.95% 463.58% at -44.29% -62.34%,
+        rgba(255, 255, 255, 0.3) 0%,
+        rgba(255, 255, 255, 0) 100%
+      );
+      backdrop-filter: blur(18px);
       width: 100%;
       height: 100%;
-      display: flex;
       align-items: center;
       justify-content: center;
+      transition: all 0.2s ease-in-out;
+      -moz-transition: all 0.2s ease-in-out;
       display: none;
-      transition-delay: 1s;
       .card-over-lay__btn {
         width: 192px;
         height: 64px;
         display: flex;
         justify-content: center;
         align-items: center;
+        transition: 0.3s ease;
+        &:hover {
+          background-color: $white-color;
+          color: $blue-color;
+        }
       }
     }
   }
   .card-spotlight__image:hover .card-over-lay {
     display: flex;
-    transition-delay: 3s;
   }
   .card-content__title {
     font-size: 1.6rem;
@@ -140,5 +142,55 @@
   }
   &.content {
     width: 384px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 566px) {
+  .card-wrapper {
+    padding: 10px;
+    .card-spotlight {
+      width: 100%;
+      .card-spotlight__image {
+        width: 100%;
+      }
+    }
+    .card-content {
+      width: 100%;
+    }
+    .card-content__creator-name {
+      h4 {
+        width: 80px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 567px) and (max-width: 1024px) {
+  .card-wrapper {
+    width: unset;
+    padding: 10px;
+    &.content {
+      width: 100%;
+      margin-top: 20px;
+      padding: 10px;
+    }
+    .card-spotlight {
+      width: 100%;
+      .card-spotlight__image {
+        width: 100%;
+      }
+    }
+    .card-content {
+      width: 100%;
+    }
+    .card-content__creator-name {
+      h4 {
+        width: 80px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
   }
 }

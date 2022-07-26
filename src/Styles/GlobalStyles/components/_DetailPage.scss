@@ -179,15 +179,18 @@
     color: red;
   }
 }
-@media only screen and (min-width: 320px) and (max-width: 768px) {
+@media only screen and (min-width: 320px) and (max-width: 567px) {
   .detail-page__wrapper {
     padding: 0 10px;
     .detail-page__title {
       margin-top: 40px;
-      font-size: 4.8rem;
+      font-size: 4.6rem;
     }
     .detail-item-bid {
       width: 100%;
+    }
+    .detail-item-creator_owner {
+      padding: 5px 10px;
     }
     .detail-buy-btns {
       column-gap: 10px;
@@ -205,7 +208,10 @@
       padding: 0 10px 0px 0;
     }
     .offers-card {
-      width: 100%;
+      margin-right: 0 !important;
+      span {
+        display: none;
+      }
     }
     .description-info-detail {
       width: 100%;
@@ -215,12 +221,23 @@
     }
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 568px) and (max-width: 1024px) {
   .detail-page__wrapper {
-    margin-top: 86px;
+    margin: 86px 10px 0 10px;
     .card-wrapper {
       display: flex;
       margin: 0 auto;
+    }
+    .offers-wrapper {
+      padding: 0 10px;
+      .offers-card {
+        margin-right: 0;
+        .offers-card__name_detail {
+          span {
+            display: none;
+          }
+        }
+      }
     }
   }
 }

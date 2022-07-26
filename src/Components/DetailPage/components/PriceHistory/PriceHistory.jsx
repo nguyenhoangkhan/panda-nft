@@ -24,6 +24,14 @@ ChartJS.register(
 const PriceHistory = () => {
   const options = {
     responsive: true,
+    layout: {
+      padding: {
+        left: 20,
+        right: 20,
+        top: 10,
+        bottom: 10,
+      },
+    },
     plugins: {
       legend: {
         display: false,
@@ -41,6 +49,7 @@ const PriceHistory = () => {
         align: "start",
         padding: {
           bottom: 80,
+          left: 100,
         },
         background:
           "linear-gradient(180.13deg, rgba(5, 78, 186, 0.19) 30.73%, rgba(41, 53, 69, 0) 114.02%)",

@@ -18,9 +18,7 @@
   border: 1px solid $gray-bold-color;
   transition: 0.3s;
   user-select: none;
-  &:hover {
-    background-color: unset;
-  }
+
   .create-card__icon {
     background-color: $blue-color;
     display: flex;
@@ -48,9 +46,10 @@
     line-height: 24px;
   }
 }
-@media only screen and (min-width: 320px) and (max-width: 768px) {
+@media only screen and (min-width: 320px) and (max-width: 566px) {
   .create-wrapper {
-    margin-top: 100px;
+    margin-top: 40px;
+    padding: 10px;
   }
   .create-title {
     width: auto;
@@ -59,5 +58,15 @@
     margin: 0 10px 10px;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 567px) and (max-width: 768px) {
+  .create-wrapper {
+    margin-top: 60px;
+    .create-title {
+      margin-bottom: 10px;
+    }
+    .create-card {
+      padding: 20px 30px;
+      margin-top: 20px;
+    }
+  }
 }

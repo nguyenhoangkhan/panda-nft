@@ -27,9 +27,10 @@
     margin-top: 36px;
   }
 }
-@media only screen and (min-width: 320px) and (max-width: 768px) {
+@media only screen and (min-width: 320px) and (max-width: 567px) {
   .hot-wrapper {
     padding: 0 10px;
+    margin-top: 30px;
     .hot-btn {
       margin: 6px 0;
     }
@@ -45,20 +46,22 @@
     }
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-  .hot-card {
-    .card-spotlight {
-      width: 100%;
-      .card-spotlight__image {
-        width: 100%;
+@media only screen and (min-width: 567px) and (max-width: 1024px) {
+  .hot-wrapper {
+    margin-top: 80px;
+    .hot-title {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .hot-wrapper-cards {
+      margin-top: 30px;
+      .col {
+        margin-bottom: 20px;
       }
-
-      h4 {
-        width: 80px;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-      }
+    }
+    .hot-wrapper-more {
+      display: flex;
+      justify-content: center;
     }
   }
 }

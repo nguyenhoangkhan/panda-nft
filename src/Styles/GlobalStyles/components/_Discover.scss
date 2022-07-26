@@ -83,20 +83,24 @@
   display: flex;
   justify-content: center;
 }
-@media only screen and(min-width : 320px) and (max-width: 768px) {
+@media only screen and(min-width : 320px) and (max-width: 567px) {
   .discover-wrapper {
     padding: 0 10px;
     .discover-search-wrapper {
       margin-top: 86px;
       max-width: fit-content;
+      .title-content {
+        font-size: 5rem;
+        margin-bottom: 0;
+      }
       .discover-search {
-        width: 100%;
+        // width: 100%;
         margin: 30px auto 0 auto;
         input {
-          width: 350px;
+          width: 100%;
         }
         span {
-          left: 308px;
+          left: calc(100% - 52px);
         }
       }
       .discover-btn {
@@ -121,7 +125,7 @@
     }
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 568px) and (max-width: 1024px) {
   .discover-wrapper {
     .discover-search-wrapper {
       .discover-search {
@@ -130,23 +134,6 @@
         }
         span {
           left: 560px;
-        }
-      }
-    }
-    .discover-card {
-      width: 100%;
-      .card-spotlight {
-        width: 100%;
-        .card-spotlight__image {
-          width: 100%;
-        }
-      }
-      .card-content__creator-name {
-        h4 {
-          width: 80px;
-          white-space: nowrap;
-          overflow: hidden;
-          text-overflow: ellipsis;
         }
       }
     }

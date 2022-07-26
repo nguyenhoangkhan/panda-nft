@@ -111,7 +111,7 @@
 }
 
 /* >= Tablet */
-@media (min-width: 740px) {
+@media (min-width: 568px) {
   .row {
     margin-left: -8px;
     margin-right: -8px;
@@ -247,7 +247,7 @@
 }
 
 /* PC medium resolution > */
-@media (min-width: 1113px) {
+@media (min-width: 1024px) {
   .row {
     margin-left: -12px;
     margin-right: -12px;
@@ -402,7 +402,7 @@
 }
 
 /* Tablet - PC low resolution */
-@media (min-width: 740px) and (max-width: 1023px) {
+@media (min-width: 568px) and (max-width: 1023px) {
   .wide {
     width: 644px;
   }

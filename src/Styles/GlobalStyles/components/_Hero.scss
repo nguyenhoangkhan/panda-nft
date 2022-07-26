@@ -1,9 +1,11 @@
 .hero-wrapper {
   position: relative;
+  margin-top: 40px;
   .hero-discover {
     p {
       color: $secondary-color;
       margin-bottom: 40px;
+      line-height: 30px;
     }
   }
   .hero-cards {
@@ -15,7 +17,7 @@
     top: 0;
   }
 }
-@media only screen and (min-width: 320px) and (max-width: 768px) {
+@media only screen and (min-width: 320px) and (max-width: 567px) {
   .hero-wrapper {
     padding: 0 10px;
     .hero-discover {
@@ -31,10 +33,12 @@
     }
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 568px) and (max-width: 1024px) {
   .hero-wrapper {
     .hero-card {
-      padding: 40px;
+      margin: 30px auto 0 auto;
+      width: 400px;
+      padding: 20px;
       .card-spotlight {
         width: 100%;
       }
